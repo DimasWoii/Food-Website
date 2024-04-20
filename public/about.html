@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <style type="text/css">
+        body {
+            background-color: antiquewhite;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            float: none; 
+        }
+
+        nav {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            float: right; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: white;
+        }
+
+        main {
+            text-align: center;
+            width: 100%;
+            margin-bottom: auto;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+
+        .Makanan p {
+            font-size: 16px;
+            font-family: "courier";
+            line-height: 1.5;
+            color: black;
+        }
+
+        /* Element Selector */
+        div {
+            margin: 20px;
+            padding: 10px;
+            border: 3px solid black;
+            float: left; 
+        }
+
+        /* Class Selector */
+        .type {
+            display: inline-block;
+        }
+
+        .bulgogi {
+            margin-top: 30px;
+            background-color: whitesmoke;
+        }
+
+        /* ID Selector */
+        #kimchi {
+            border-color: navajowhite;
+            background-color: whitesmoke;
+        }
+
+        /* Attribute Selector */
+        img[alt="crunchy"] {
+            border-color: green;
+        }
+
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <hr>
+    <header>
+        <h1>type</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr/>
+     <div class="kimchi" id="kimchi">
+        <p>Kimchi adalah makanan tradisional Korea yang terbuat dari sayuran yang difermentasi, biasanya kubis atau lobak putih, yang dicampur dengan bumbu-bumbu seperti cabai, bawang putih, jahe, dan garam laut. </p>
+        <img src="../asset/images/kimchi.jpg" alt="kimchi" width="200" height="200">
+    </div>
+    
+    <div class="kimbabroll" id="kimbabroll">
+        <p>Kimbap-roll, atau yang juga dikenal sebagai kimbap, adalah makanan Korea yang terdiri dari nasi yang dilapisi dengan rumput laut (nori) dan diisi dengan berbagai bahan seperti sayuran, daging, atau seafood. Isiannya dapat beragam, termasuk telur dadar, wortel, lobak, rumput laut, dan daging panggang seperti ham atau daging sapi.</p>
+        <img src="../asset/images/kimbap-roll.jpg" alt="kimbap-roll" width="200" height="200">
+    </div>
+
+     <div class="bulgogi">
+        <p>
+            Bulgogi adalah masakan Korea yang terkenal, terdiri dari daging sapi (sering kali daging sapi sirloin atau tenderloin) yang dipotong tipis dan direndam dalam campuran bumbu, yang terdiri dari kecap asin, gula, bawang putih, wijen, dan bumbu-bumbu lainnya.</p>
+        <img src="../asset/images/bulgogi.jpg" alt="bulgogi" width="200" height="200">
+    </div>
+    
+    <div class="crunchy">
+        <p>Crunchy fried chicken adalah hidangan ayam yang dimasak dengan teknik penggorengan khusus untuk menciptakan kulit yang renyah dan garing.</p>
+        <img src="../asset/images/crunchy-fried-chicken.jpg" alt="crunchy-fried-chicken"  width="200" height="200">
+    </div>
+    
+    <div class="toboki">
+        <p>Tteokbokki adalah makanan Korea yang terbuat dari tteok (kue beras) yang dipotong menjadi bentuk silinder atau bulat dan direbus bersama dengan saus pedas yang kental.</p>
+        <img src="../asset/images/tteokbokki.jpg" alt="tteokbokki" width="200" height="200">
+    </div>
+
+</body>
+</html>
